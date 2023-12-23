@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/pusher-logo.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Responsive Altschool Assignment</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+        
+        <nav class="nav container">
+           <a href="" class="nav__logo">
+              <img src="assets/img/pusher-logo.png" alt="pusher-logo">
+           </a>
+           <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  
+                  <li class="nav__item">
+                      <a href="#home" class="nav__link">Download</a>
+                       
+                   </li>  
+                  <li class="nav__item">
+                      <a href="#about" class="nav__link">Learn more</a>
+                       
+                   </li>
+                   <li class="nav__item">
+                      <a href="#services" class="nav__link">Pricing</a>
+                       
+                   </li>
+                   <li class="nav__item">
+                      <a href="#projects" class="nav__link">Help</a>
+                       
+                   </li>
+                   
+                    <li class="nav__item">
+                      <a href="#contact" class="nav__link active-link">Account</a>
+                       
+                   </li>
+                   
+                   
+               </ul>
+               
+                       <!-- close button -->
+                       <div class="nav__close" id="nav-close">
+                           <i class="ri-close-line"></i>
+                           
+                       </div>
+               
+           </div>
+           
+<!--           Toggle button-->
+       <div class="nav__toggle" id="nav-toggle">
+           <i class="ri-menu-line"></i>
+           
+       </div>
+        </nav>
+        
+      </header>
+      <hr class="top_hr">
+
+      
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+          <section class="home section" id="home">
+           <div class="home__container container grid">
+
+              <div class="home__checkout">
+
+               <div id="form">
+                  <h2>checkout</h2>
+                  <hr>
+                  <h3><span class="number"> 1 </span> basic information</h3>
+
+                  <ul>
+                     
+                      <li>
+                          <label for="first_name">First Name</label>
+                          <input id="first_name" type="text" class="input_focus" placeholder="JOHN"/>
+                      </li>
+                       <li>
+                          <label for="last_name">Last Name</label>
+                          <input id="last_name" type="text" class="input_focus" placeholder="OGHENEOCHUKO" />
+                      </li>
+                      <li id="exclude">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" class="input_focus" placeholder="ochustech56@gmail.com" />
+                    </li>
+                    
+                    <hr>
+                    <h3><span class="number"> 2 </span>Your payment information</h3>
+                    <li class="exclude">
+                     <label for="credit-card">Credit Card</label>
+                     <div class="card_num">Card Number</div>
+                     <input style="text-align:right;" id="credit-card" type="text" class="input_focus" placeholder="MM/YY &nbsp;&nbsp CVC" />
+                 </li>
+                 <hr id="last_hr">
+                 <li class="exclude">
+                  <button>Buy WP Pusher</button>
+                </li>
+                  </ul>
+
+                  <div class="checkout_footer">
+                     <p><span style="font-weight:bold;margin-top:200px;">Need Any help?</span> Don't Hesitate to contact support</p>
+                     <p id="stripe" >Powered By <span style="font-size:bold">Stripe</span></p>
+
+
+                  </div>
+
+
+                  </div>
+     
+           
+                 
+              </div> 
+              <!-- freelancer box -->
+          <div class="home__freelancer">
+         <h4>Freelancer</h4>
+         <span class="nine"><sup>$</sup>99</span>/ year
+         <p>Automatic renew <br> after 1 year</p>
+
+         <ul>
+
+            <li><i class="ri-check-line"></i>Use on 5 client sites</li>
+            <li><i class="ri-check-line"></i> Private repositories</li>
+            <li><i class="ri-check-line"></i> Email support</li>
+              
+         </ul>
+         <p style="margin-top: 20px;line-height:30px;">Need 20 client sites?<br>
+           <span style="font-weight: bold;"> Switch to the Agency plan.</span></p>
+
+            <hr id="freelancer_hr">
+
+            <div class="ftp_horrible">FTP is horrible to deal with.<br><span style="font-weight:bold;">WP P</span>usher solves that issue,<br> and the customer support is<br> awesome!</div>
+            
+            <div class="author">
+            <img id="author-img" src="author-image.jpg" alt="Author photos" width="40px" height="40px">
+         <h6 style="padding-top: 10px; padding-left:10px;">John Ogheneochuko</h6>
+         </div>
+              </div> 
+              
+           </div>
+           <div class="terms">© 2018 WP Pusher IVS  ·  <span class="second_terms">terms of Service</span></div>
+            
+         </section>
+
+
+      </main>
+   
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
